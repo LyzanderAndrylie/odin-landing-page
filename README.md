@@ -5,6 +5,7 @@ This project is created mainly using flex layout to create design provided by Th
 ## Result
 
 Check out here! :smile:
+
 :link: <https://lyzanderandrylie.github.io/odin-landing-page/>
 
 ## Requirements
