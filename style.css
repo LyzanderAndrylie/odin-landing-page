@@ -150,10 +150,38 @@ blockquote > p {
     max-width: 800px;
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 figcaption {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Forth section */
+.forth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3882f6;
+    color: #f9fAf8;
+
+    border-radius: 16px;
+    width: 600px;
+}
+
+.sign-up-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
