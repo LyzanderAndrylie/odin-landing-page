@@ -17,7 +17,7 @@ body {
 
 .section {
     flex: 1 1 0;
-    padding: 30px;
+    padding: 50px 30px;
     /* bug */
     /* reference: https://github.com/philipwalton/flexbugs#flexbug-3 */
     /* Using flex: 1 with min-height: 100vh will give different
@@ -98,7 +98,7 @@ a {
 }
 
 .image {
-    width: 400px;
+    width: 300px;
     height: 200px;
     display: flex;
     flex: none;
@@ -136,4 +136,24 @@ a {
     max-width: 150px;
     text-align: center;
     margin: 0 auto;
+}
+
+/* Third section */
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote > p {
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+figcaption {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
