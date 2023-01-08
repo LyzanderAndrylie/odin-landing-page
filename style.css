@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* For debugging */
+    /* border: 1px solid red; */
+}
+
+body {
+    min-height: 100vh;
+}
