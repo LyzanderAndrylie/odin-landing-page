@@ -16,7 +16,12 @@ body {
 }
 
 .section {
-    flex: 1;
+    flex: 1 1 0;
+    /* bug */
+    /* reference: https://github.com/philipwalton/flexbugs#flexbug-3 */
+    /* Using flex: 1 with min-height: 100vh will give different
+        height for each section  */
+    /* flex: 1;  */
 }
 
 .header,
