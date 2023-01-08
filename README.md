@@ -17,4 +17,4 @@ To check out full requirements, click this [link](https://www.theodinproject.com
 
 ## Note
 
-While working with this project, I found interesting bug with flex layout. If I set `min-height: 100vh` to  flex container, flex item with `flex: 1` and `flex: 1 1 0` will have different behavior. Based on what I found on internet, that's happen because of bug ([min-height on a flex container won't apply to its flex items](https://github.com/philipwalton/flexbugs#flexbug-3))
+While working with this project, I found interesting bug with flex layout. If I set `min-height: 100vh` to flex container with column direction, flex item with `flex: 1` and `flex: 1 1 0` will have different behavior. Based on what I found on internet, that's happen because of bug ([min-height on a flex container won't apply to its flex items](https://github.com/philipwalton/flexbugs#flexbug-3))
